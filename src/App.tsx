@@ -1,7 +1,27 @@
+import {Navbar} from './components';
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  PopularProducts,
+  Services,
+  SpecialOffers,
+  Subscribe,
+  SuperQuality,
+} from './sections';
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <main className="relative">
+      <Navbar />
+      <Hero />
+      <PopularProducts />
+      <SuperQuality />
+      <Services />
+      <SpecialOffers />
+      <CustomerReviews />
+      <Subscribe />
+      <Footer />
+    </main>
+  );
 }
