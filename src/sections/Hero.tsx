@@ -6,8 +6,8 @@ import {shoes, statistics} from '../constants';
 export const Hero = () => {
   const [activeImg, setActiveImg] = useState(shoes[0].bigShoe);
   return (
-    <section className="xl:padding-1 padding-b wide:padding-r" id="home">
-      <div className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container ">
+    <section className="w-full xl:padding-l padding-b wide:padding-r" id="home">
+      <div className=" flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container ">
         <div className="relative xl:w-2/5 justify-center items-start flex flex-col w-full max-xl:padding-x pt-28">
           <p className="text-xl font-montserrat text-coral-red">
             Our Summer Collections
